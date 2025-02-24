@@ -18,7 +18,7 @@ function findDuplicate(nums: number[]): number {
   slow = nums[0]; // reset o slow para o inicio do array
 
   while (slow !== fast) {
-    slow = nums[slow]; // amnos os ponteiros se move a um passo de cada vez
+    slow = nums[slow]; // ambos os ponteiros se move a um passo de cada vez
     fast = nums[fast];
   }
 
